@@ -1,0 +1,90 @@
+
+
+.prezo {
+    max-width: 1200px;
+    margin: 0 auto;
+
+    .overlay {
+        display: none;
+    }
+
+
+
+    #received {
+        //margin: 3em;
+        padding: 0;
+
+
+
+        overflow: auto;
+
+        p {
+            font-size: 2.5em;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        table.poll_results {
+            width: auto;
+            display: inline-block;
+            padding: 0;
+
+            .labels {
+                line-height: 3em;
+            }
+
+            td, th {
+                padding: 0;
+                border-left: 25px solid transparent;
+                border-right: 25px solid transparent;
+            }
+            tr {
+                padding: 0;
+            }
+
+            &.total_3 {
+                tr.labels td {
+                    font-size: 6em;
+                }
+
+                tr.percents td {
+                    font-size: 7em;
+                }
+            }
+
+            &.total_4 {
+                tr.labels td {
+                    font-size: 4em;
+                }
+
+                tr.percents td {
+                    font-size: 5em;
+                }
+            }
+
+            &.total_5 {
+                tr.labels td {
+                    font-size: 3.6em;
+                }
+
+                tr.percents td {
+                    font-size: 4.6em;
+                }
+            }
+
+            &.total_6, &.total_7, &.total_8, &.total_9,
+            &.total_10, &.total_11, &.total_12 {
+                tr.labels td {
+                    font-size: 3em;
+                }
+
+                tr.percents td {
+                    font-size: 3em;
+                }
+            }
+        }
+    }
+
+
+
+}

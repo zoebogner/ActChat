@@ -1,0 +1,40 @@
+.prezo {
+  max-width: 1200px;
+  margin: 0 auto; }
+  .prezo .overlay {
+    display: none; }
+  .prezo #received {
+    padding: 0;
+    overflow: auto; }
+    .prezo #received p {
+      font-size: 2.5em;
+      max-width: 500px;
+      margin: 0 auto; }
+    .prezo #received table.poll_results {
+      width: auto;
+      display: inline-block;
+      padding: 0; }
+      .prezo #received table.poll_results .labels {
+        line-height: 3em; }
+      .prezo #received table.poll_results td, .prezo #received table.poll_results th {
+        padding: 0;
+        border-left: 25px solid transparent;
+        border-right: 25px solid transparent; }
+      .prezo #received table.poll_results tr {
+        padding: 0; }
+      .prezo #received table.poll_results.total_3 tr.labels td {
+        font-size: 6em; }
+      .prezo #received table.poll_results.total_3 tr.percents td {
+        font-size: 7em; }
+      .prezo #received table.poll_results.total_4 tr.labels td {
+        font-size: 4em; }
+      .prezo #received table.poll_results.total_4 tr.percents td {
+        font-size: 5em; }
+      .prezo #received table.poll_results.total_5 tr.labels td {
+        font-size: 3.6em; }
+      .prezo #received table.poll_results.total_5 tr.percents td {
+        font-size: 4.6em; }
+      .prezo #received table.poll_results.total_6 tr.labels td, .prezo #received table.poll_results.total_7 tr.labels td, .prezo #received table.poll_results.total_8 tr.labels td, .prezo #received table.poll_results.total_9 tr.labels td, .prezo #received table.poll_results.total_10 tr.labels td, .prezo #received table.poll_results.total_11 tr.labels td, .prezo #received table.poll_results.total_12 tr.labels td {
+        font-size: 3em; }
+      .prezo #received table.poll_results.total_6 tr.percents td, .prezo #received table.poll_results.total_7 tr.percents td, .prezo #received table.poll_results.total_8 tr.percents td, .prezo #received table.poll_results.total_9 tr.percents td, .prezo #received table.poll_results.total_10 tr.percents td, .prezo #received table.poll_results.total_11 tr.percents td, .prezo #received table.poll_results.total_12 tr.percents td {
+        font-size: 3em; }
