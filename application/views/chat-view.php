@@ -15,9 +15,12 @@
 
     <div class="row">
         <div class="col-lg-12 inputarea">
-            <form>
-              <input id="text" type="text" name="user" placeholder="What do you want to say?"><br><br>
-              <input type="submit" value="Send" id="submit" class="btn btn-default btn-block">
+            <form class="form-inline">
+                <div class="form-group col-sm-11">
+                    <input id="text" class="form-control" type="text" name="user" placeholder="Message">
+                </div>
+                
+                <button type="submit" value="Send" id="submit" class="btn btn-default col-sm-1"><i class="glyphicon glyphicon-circle-arrow-up"></i>
             </form>
         </div>
     </div>
