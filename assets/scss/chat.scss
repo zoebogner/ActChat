@@ -62,11 +62,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
                 
             margin-right: 20%;
             margin-bottom: 5px;
+            text-align: left;
             
             span {
-                display: block;
+                display: inline-block;
                 font-weight: normal;
-                text-align: left;
                 background-color: #ccc;
                 color: #000;
                 border-radius: 10px;
@@ -79,11 +79,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
             
             margin-left: 20%;
             margin-bottom: 5px;
+            text-align: right;
             
             span {
-                display: block;
+                display: inline-block;
                 font-weight: normal;
-                text-align: right;
                 background-color: #5BC236;
                 color: #fff;
                 border-radius: 10px;
