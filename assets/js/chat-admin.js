@@ -1,9 +1,9 @@
-var BASE_URL = '/chat/';
+var BASE_URL = '/ActChat/';
 
 $(document).ready(function() {
     $('.mode_change').click(function(){
         var btn = $(this);
-        //Get the ID of the button that was clicked on
+        //we the ID of the button that was clicked on
         var id_of_item = $(this).attr("id");
         $.ajax({
             url: BASE_URL+"admin/change_mode", //This is the page where you will handle your SQL insert

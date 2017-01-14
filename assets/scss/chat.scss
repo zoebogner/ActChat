@@ -54,6 +54,42 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
             font-weight: bold;
             padding: 0.2em 0;
             font-size: 1.2em;
+            
+            
+        }
+        
+        .leftchatbubble {
+                
+            margin-right: 20%;
+            margin-bottom: 5px;
+            
+            span {
+                display: block;
+                font-weight: normal;
+                text-align: left;
+                background-color: #ccc;
+                color: #000;
+                border-radius: 10px;
+                padding: 2px 10px;
+                
+            }
+        }
+        
+        .rightchatbubble {
+            
+            margin-left: 20%;
+            margin-bottom: 5px;
+            
+            span {
+                display: block;
+                font-weight: normal;
+                text-align: right;
+                background-color: #5BC236;
+                color: #fff;
+                border-radius: 10px;
+                padding: 2px 10px;
+            }
+            
         }
 
         table.poll_results {

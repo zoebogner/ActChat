@@ -1,5 +1,5 @@
 var time = 0;
-var BASE_URL = '/chat/';
+var BASE_URL = '/ActChat';
 
 
 var updateTime = function (cb) {
@@ -10,7 +10,7 @@ var updateTime = function (cb) {
 
 var sendChat = function (message, cb) {
     var msg = encodeURIComponent(message);
-    $.getJSON(BASE_URL + "chat/insert_chat?message=" + msg, function (data){
+    $.getJSON(BASE_URL + "/chat/insert_chat?message=" + msg, function (data){
         cb();
     });
 };
@@ -25,7 +25,7 @@ var addDataToReceived = function (arrayOfData) {
 var getNewChats = function () {
     //console.log("fetching chats..");
 
-    $.getJSON(BASE_URL + "chat/get_chats?time=" + time, function(data){
+    $.getJSON(BASE_URL + "/chat/get_chats?time=" + time, function(data){
         addDataToReceived(data);
         // reset scroll height
         setTimeout(function(){
@@ -78,6 +78,32 @@ $( document ).ready ( function () {
         // get the time if clicked via a ajax get query
         sendChat(data, function (){
           //alert("done");
+        });
+    });
+    
+    // Formatted chat
+    // Left bubble (grey, recieved)
+    $("#submitleft").click(function (evt) {
+        evt.preventDefault();
+
+        var data = '<div class="leftchatbubble"><span>' + $("#text").val() + '</span></div>';
+        $("#text").val('');
+
+        // get the time if clicked via a ajax get query
+        sendChat(data, function (){
+        });
+    });
+    
+    // Right bubble (green, sent)
+    // Formatted chat
+    $("#submitright").click(function (evt) {
+        evt.preventDefault();
+
+        var data = '<div class="rightchatbubble"><span>' + $("#text").val() + '</span></div>';
+        $("#text").val('');
+
+        // get the time if clicked via a ajax get query
+        sendChat(data, function (){
         });
     });
 
