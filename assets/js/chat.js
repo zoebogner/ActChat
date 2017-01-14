@@ -1,5 +1,5 @@
 var time = 0;
-var BASE_URL = '/hospital/';
+var BASE_URL = '/chat/';
 
 
 var updateTime = function (cb) {

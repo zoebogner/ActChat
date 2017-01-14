@@ -1,4 +1,4 @@
-var BASE_URL = '/hospital/';
+var BASE_URL = '/chat/';
 
 $(document).ready(function() {
     $('.mode_change').click(function(){
