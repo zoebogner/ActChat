@@ -88,6 +88,10 @@
         font-size: 2em; }
       .chatarea #received table.poll_results.total_6 tr.percents td, .chatarea #received table.poll_results.total_7 tr.percents td, .chatarea #received table.poll_results.total_8 tr.percents td, .chatarea #received table.poll_results.total_9 tr.percents td, .chatarea #received table.poll_results.total_10 tr.percents td, .chatarea #received table.poll_results.total_11 tr.percents td, .chatarea #received table.poll_results.total_12 tr.percents td {
         font-size: 2em; }
+    .chatarea #received time {
+      display: block;
+      font-size: 0.8em;
+      padding: 0.2em; }
 
 .inputarea {
   padding: 20px 0 50px 0; }
